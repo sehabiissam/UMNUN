@@ -20,7 +20,7 @@
     <!-- App Loading Overlay -->
     <div id="app-loading"
         style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: 10000; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: opacity 0.5s ease, visibility 0.5s ease;">
-        <img src="https://www.image2url.com/r2/default/images/1780561552548-eccbbce0-5580-4c06-b2d2-5f737b33fd23.jpg" alt="UMNUN"
+        <img src="https://www.image2url.com/r2/default/images/1780739483286-7224b192-7248-4e89-8598-52f80e9e89ec.jpg" alt="UMNUN"
             class="loading-logo logo-img"
             style="max-height: 110px; margin-bottom: 2rem; filter: drop-shadow(0 0 15px rgba(255,255,255,0.4));">
         <div class="loading-bar-container"
@@ -41,7 +41,7 @@
     <nav class="nav">
         <div class="container nav-container">
             <a href="#home" class="nav-logo">
-                <img src="https://www.image2url.com/r2/default/images/1780561552548-eccbbce0-5580-4c06-b2d2-5f737b33fd23.jpg"
+                <img src="https://www.image2url.com/r2/default/images/1780739483286-7224b192-7248-4e89-8598-52f80e9e89ec.jpg"
                     alt="UMNUN" class="logo-img">
             </a>
             <ul class="nav-links">
@@ -96,7 +96,7 @@
     <div class="mobile-menu" id="mobile-menu">
         <div class="mobile-menu-glass"></div>
         <div class="mobile-menu-header">
-            <img src="https://www.image2url.com/r2/default/images/1780561552548-eccbbce0-5580-4c06-b2d2-5f737b33fd23.jpg" alt="UMNUN" class="mobile-menu-logo logo-img">
+            <img src="https://www.image2url.com/r2/default/images/1780739483286-7224b192-7248-4e89-8598-52f80e9e89ec.jpg" alt="UMNUN" class="mobile-menu-logo logo-img">
             <button class="menu-close" id="menu-close">
                 <i class="fa-solid fa-xmark"></i>
             </button>
@@ -1105,31 +1105,21 @@
                 </div>
                 <div class="form-group">
                     <label>IMAGE SOURCE</label>
-                    <div class="image-toggle-container"
-                        style="display: flex; background: rgba(255,255,255,0.05); padding: 4px; border-radius: 8px; margin-bottom: 15px; border: 1px solid rgba(255,255,255,0.1);">
-                        <button type="button" class="btn btn-mini product-img-mode active" data-mode="url"
-                            style="flex: 1; font-size: 0.6rem; border: none; border-radius: 6px; padding: 8px;">SOURCE
-                            URL</button>
-                        <button type="button" class="btn btn-mini product-img-mode" data-mode="upload"
-                            style="flex: 1; font-size: 0.6rem; border: none; border-radius: 6px; padding: 8px;">LOCAL
-                            UPLOAD</button>
+                    <div class="image-toggle-container">
+                        <button type="button" class="product-img-mode active" data-mode="url">SOURCE URL</button>
+                        <button type="button" class="product-img-mode" data-mode="upload">LOCAL UPLOAD</button>
                     </div>
 
                     <div id="p-img-url-wrapper">
-                        <input type="url" id="p-img" placeholder="HTTPS://GEAR-IMAGE.JPG" style="margin-bottom: 0;">
+                        <input type="url" id="p-img" placeholder="HTTPS://GEAR-IMAGE.JPG">
                     </div>
 
                     <div id="p-img-upload-wrapper" style="display: none;">
-                        <div class="upload-dropzone" id="image-dropzone"
-                            style="border: 2px border-dashed rgba(255,255,255,0.1); border-radius: 8px; padding: 25px 15px; text-align: center; cursor: pointer; transition: all 0.3s ease; position: relative; background: rgba(255,255,255,0.02);">
-                            <input type="file" id="p-img-file" accept="image/*"
-                                style="opacity: 0; position: absolute; inset: 0; cursor: pointer; width: 100%; height: 100%;">
-                            <div style="pointer-events: none;">
-                                <i class="fa-solid fa-cloud-arrow-up"
-                                    style="font-size: 1.4rem; color: var(--accent); margin-bottom: 10px; opacity: 0.8;"></i>
-                                <p
-                                    style="font-size: 0.65rem; font-weight: 700; color: rgba(255,255,255,0.4); text-transform: uppercase; letter-spacing: 1px;">
-                                    DRAG GEAR OR <span class="accent">BROWSE</span></p>
+                        <div class="upload-dropzone" id="image-dropzone">
+                            <input type="file" id="p-img-file" accept="image/*">
+                            <div class="upload-dropzone-content">
+                                <i class="fa-solid fa-cloud-arrow-up upload-dropzone-icon"></i>
+                                <p class="upload-dropzone-text">DRAG GEAR OR <span class="upload-dropzone-link">BROWSE</span></p>
                             </div>
                         </div>
                     </div>
@@ -1285,7 +1275,7 @@
         <div class="container footer-grid">
             <div class="footer-brand">
                 <div class="footer-logo">
-                    <img src="https://www.image2url.com/r2/default/images/1780561552548-eccbbce0-5580-4c06-b2d2-5f737b33fd23.jpg"
+                    <img src="https://www.image2url.com/r2/default/images/1780739483286-7224b192-7248-4e89-8598-52f80e9e89ec.jpg"
                         alt="UMNUN" class="logo-img" style="max-height: 90px;">
                 </div>
                 <p>Pioneering the future of Algerian streetwear. Built for those who refuse to stay in the shadows.</p>
